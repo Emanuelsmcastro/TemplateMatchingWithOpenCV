@@ -3,6 +3,13 @@
 # Como Usar:
 - Coloque o nome do template e imagem que serão usados na classe principal:
   ![image](https://github.com/Emanuelsmcastro/TemplateMatchingWithOpenCV/assets/93106680/00618d1e-9b0c-4b46-9ce6-04f6dd9a9b99)
+  
+- Coloque o template e imagem no diretório de imagens:
+  ![image](https://github.com/Emanuelsmcastro/TemplateMatchingWithOpenCV/assets/93106680/68c172c7-2879-4cd3-ab34-6a726bb288d9)
 
 - Execute o script:                                                       
   ![image](https://github.com/Emanuelsmcastro/TemplateMatchingWithOpenCV/assets/93106680/e8934e0d-9e64-4bc5-939e-21a05314ecd7)
+
+# OBS
+*Template* é o objeto que será buscado na imagem.
+A *imagem* é onde o template será localizado.
