@@ -1,4 +1,4 @@
-# TemplateMatchingWithOpenCV
+# Template Matching With OpenCV
 ![image](https://github.com/Emanuelsmcastro/TemplateMatchingWithOpenCV/assets/93106680/7c8c79e5-159f-4962-97fc-9200f7bc4516)
 # Como Usar:
 - Coloque o nome do template e imagem que serão usados na classe principal:                                                                                      
