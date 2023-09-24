@@ -7,7 +7,7 @@
 - Coloque o template e imagem no diretório de imagens:
   ![image](https://github.com/Emanuelsmcastro/TemplateMatchingWithOpenCV/assets/93106680/68c172c7-2879-4cd3-ab34-6a726bb288d9)
 
-- Execute o script:                                                       
+- Execute o script:                                                                                                                           
   ![image](https://github.com/Emanuelsmcastro/TemplateMatchingWithOpenCV/assets/93106680/e8934e0d-9e64-4bc5-939e-21a05314ecd7)
 
 # OBS
