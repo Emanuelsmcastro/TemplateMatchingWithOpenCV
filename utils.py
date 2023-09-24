@@ -3,7 +3,7 @@ from collections import namedtuple
 from settings import *
 import numpy as np
 
-class TemplateMachingBase:
+class TemplateMachingAbstract:
     image_name: str = 'example.jpg'
     template_name: str = 'template.png'
     images = namedtuple('Images', 'image image_gray template template_gray'.split())
@@ -81,3 +81,16 @@ class TemplateMachingBase:
     def run(self, *args, **kwargs):
         pass
 
+
+class TemplateMachingBase(TemplateMachingAbstract):
+    image_name = 'example.jpg'
+    template_name = 'template.png'
+
+    def run(self, *args, **kwargs):
+        methods = self.getTemplateMatchingMethods()
+        images = self.getImages()
+        image_color_copy = images.image
+        
+        for meth in methods:
+           self.matching(meth, images.image_gray, images.template_gray, image_color_copy)
+        self.showImage(image_color_copy)
